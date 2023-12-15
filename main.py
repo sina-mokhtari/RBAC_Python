@@ -1,3 +1,4 @@
+# Amirreza alasti - sina Mokhtari
 import getpass
 from typing import List
 from enum import Enum
@@ -161,8 +162,8 @@ def main() -> None:
         user_role,
     )
 
-    users_list.append(User("user1", "pass1", [user_role]))
-    users_list.append(User("user2", "pass2", [user_role]))
+    users_list.append(User("alasti", "pass1", [user_role]))
+    users_list.append(User("mokhtari", "pass2", [user_role]))
     users_list.append(User("user3", "pass3", [user_role]))
     users_list.append(User("user4", "pass4", [admin_role]))
 
